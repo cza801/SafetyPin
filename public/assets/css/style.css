@@ -1,0 +1,35 @@
+body {
+	background-color: ;
+}
+.navborder {
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-color: #475E54;
+}
+.navbar {
+	border-radius: .25rem;
+}
+
+
+
+.bgMain {
+	background-color: #8D9F87; 475E54
+}
+
+a {
+	all: unset;
+}
+
+.headercolor {
+	color: #24302B;
+}
+
+.card-body {
+	background-color: #C0CABD;
+}
+
+.loginBorder {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #475E54;
+}
