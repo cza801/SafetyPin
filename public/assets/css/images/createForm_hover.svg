@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="247px" viewBox="0 0 200 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="45" y="39" width="115" height="140" rx="5"></rect>
+        <polygon id="path-2" points="176 46.2571429 161.257143 46.2571429 161.257143 61 150.742857 61 150.742857 46.2571429 136 46.2571429 136 35.7428571 150.742857 35.7428571 150.742857 21 161.257143 21 161.257143 35.7428571 176 35.7428571"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy">
+            <g id="pointer2">
+                <use fill="#F9F9F9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#636363" stroke-width="3" x="46.5" y="40.5" width="112" height="137" rx="5"></rect>
+            </g>
+            <text id="Create-Form" font-family="NunitoSans-ExtraLight, Nunito Sans" font-size="22" font-weight="300" fill="#000000">
+                <tspan x="41" y="220">Create Form</tspan>
+            </text>
+            <path d="M58,160.5 L110.5,160.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,143.5 L148,143.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,126.5 L148,126.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,109.5 L148,109.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,92.5 L148,92.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,75.5 L148,75.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,58.5 L83.5196003,58.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <g id="Add" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero">
+                <animateTransform attributeName="transform"
+                    type="scale"
+                    additive="sum" 
+                    from="0 1"
+                    to="0 1"
+                    begin="0s"
+                    dur="500ms"
+                    repeatCount=""
+                />                
+                <use fill="#636363" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#FFFFFF" stroke-width="5" d="M163.757143,48.7571429 L163.757143,63.5 L148.242857,63.5 L148.242857,48.7571429 L133.5,48.7571429 L133.5,33.2428571 L148.242857,33.2428571 L148.242857,18.5 L163.757143,18.5 L163.757143,33.2428571 L178.5,33.2428571 L178.5,48.7571429 L163.757143,48.7571429 Z"></path>
+            </g>
+            <polygon id="plus" stroke="#636363" fill="#636363" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="35 72 32 72 32 75 31 75 31 72 28 72 28 71 31 71 31 68 32 68 32 71 35 71"></polygon>
+            <polygon id="plus" stroke="#636363" fill="#636363" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="26 83.1428571 22.1428571 83.1428571 22.1428571 87 20.8571429 87 20.8571429 83.1428571 17 83.1428571 17 81.8571429 20.8571429 81.8571429 20.8571429 78 22.1428571 78 22.1428571 81.8571429 26 81.8571429"></polygon>
+            <polygon id="plus" stroke="#636363" fill="#636363" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="182 118.428571 179.428571 118.428571 179.428571 121 178.571429 121 178.571429 118.428571 176 118.428571 176 117.571429 178.571429 117.571429 178.571429 115 179.428571 115 179.428571 117.571429 182 117.571429"></polygon>
+            <circle id="plus" stroke="#636363" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="173" cy="80" r="3"></circle>
+            <circle id="right-cir-sm" stroke="#636363" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="182" cy="71" r="2"></circle>
+            <circle id="left-cir" stroke="#636363" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="28" cy="96" r="2"></circle>
+        </g>
+    </g>
+
+<style>
+ #pointer {
+    stroke-dasharray: 700;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 1s linear forwards;
+    -o-animation: dash 1s linear forwards;
+    -moz-animation: dash 1s linear forwards;
+    animation: dash 1s linear forwards;
+    animation-direction: alternate;
+  }
+  
+  @-webkit-keyframes dash {
+    from {
+      stroke-dashoffset: 700;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+    #pointer2 {
+    stroke-dasharray: 800;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 1s linear forwards;
+    -o-animation: dash 1s linear forwards;
+    -moz-animation: dash 1s linear forwards;
+    animation: dash 1s linear forwards;
+    animation-direction: alternate;
+  }
+  
+  @-webkit-keyframes dash {
+    from {
+      stroke-dashoffset: 800;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+#plus {
+    stroke-dasharray: 500;
+    stroke-dashoffset: 0;
+    -webkit-animation: dash 500ms linear forwards;
+    -o-animation: dash 500ms linear forwards;
+    -moz-animation: dash 500ms linear forwards;
+    animation: dash 500ms linear forwards;
+    <!-- animation-direction: alternate; -->
+  }
+  
+<!--   @-webkit-keyframes dash {
+    from {
+      stroke-dashoffset: 300;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  } -->
+
+</style>
+
+</svg>
