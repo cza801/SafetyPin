@@ -1,35 +1,102 @@
-body {
-	background-color: ;
-}
-.navborder {
-	border-bottom-style: solid;
-	border-bottom-width: 2px;
-	border-color: #475E54;
-}
-.navbar {
-	border-radius: .25rem;
+
+a img {
+	/*border: 1px solid red;*/
+    padding: 30px;
+    margin: 20px;
 }
 
-
-
-.bgMain {
-	background-color: #8D9F87; 475E54
+a img:hover {
+	/*border: 1px solid red;*/
+    padding: 30px;
+    margin: 20px;
+    /*box-shadow: 0px 0px 15px rgba(128, 128, 128, 0.4);*/
 }
 
 a {
-	all: unset;
+	text-align: center;
+	color: black;
+	font-family: 'Nunito Sans', sans-serif;
+
 }
 
-.headercolor {
-	color: #24302B;
+
+h1 {
+	font-family: 'Nunito Sans', sans-serif;
+
 }
 
-.card-body {
-	background-color: #C0CABD;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333333;*/
+    /*padding-right: 50px;*/
 }
 
-.loginBorder {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #475E54;
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.navbar #logo {
+	height: 60px; 
+	width: auto;
+	display: inline-block;
+}
+
+.navborder {
+	border-bottom: 1px solid #e8e8e8;
+}
+
+#links-landing {
+	text-align: center;
+}
+
+.navbar {
+	height: 80px;
+    justify-content: inherit;
+}
+
+.navbar-brand {
+	padding-left: 20px;
+}
+
+#teacherPicture {
+    height: 30px;
+    width: auto;
+    float: right;
+    position: fixed;
+    right: 2vw;
+    border-radius: 20px;
+}
+
+.navbarLinks {
+    display: inline-flex;
+    right: 6vw;
+    position: fixed;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.headerLink {
+	padding: 0px 10px;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.landingInstructions {
+	font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    opacity: .2;
+    font-weight: 900;
 }
