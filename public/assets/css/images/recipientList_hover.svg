@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="260px" viewBox="0 0 200 260" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="83 85.1 70.1 85.1 70.1 98 60.9 98 60.9 85.1 48 85.1 48 75.9 60.9 75.9 60.9 63 70.1 63 70.1 75.9 83 75.9"></polygon>
+        <polygon id="path-2" points="148.82 134.5 118 134.5 118 126 148.82 126"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2">
+            <text id="Manage-Recipient-Lis" font-family="NunitoSans-ExtraLight, Nunito Sans" font-size="22" font-weight="300" fill="#406D99">
+                <tspan x="14.425" y="220">Manage Recipient </tspan>
+                <tspan x="83.736" y="250">List</tspan>
+            </text>
+            <g id="Add" fill-rule="nonzero">
+                <use fill="#406D99" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#406D99" stroke-width="5" d="M80.5,82.6 L80.5,78.4 L67.6,78.4 L67.6,65.5 L63.4,65.5 L63.4,78.4 L50.5,78.4 L50.5,82.6 L63.4,82.6 L63.4,95.5 L67.6,95.5 L67.6,82.6 L80.5,82.6 Z"></path>
+                    <animateTransform attributeName="transform"
+                    type="scale"
+                    additive="sum" 
+                    from="0 1"
+                    to="0 1"
+                    begin="0s"
+                    dur="300ms"
+                    repeatCount=""
+                /> 
+            </g>
+            <g id="Add-copy" fill-rule="nonzero">
+                <use fill-opacity="0" fill="#406D99" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <path stroke="#406D99" stroke-width="5" d="M146.32,132 L146.32,128.5 L120.5,128.5 L120.5,132 L146.32,132 Z"></path>
+                    <animateTransform attributeName="transform"
+                    type="scale"
+                    additive="sum" 
+                    from="0 1"
+                    to="0 1"
+                    begin="0s"
+                    dur="200ms"
+                    repeatCount=""
+                /> 
+            </g>
+            <polygon id="left-plus-sm" stroke="#406D99" fill="#406D99" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="35 156 32 156 32 159 31 159 31 156 28 156 28 155 31 155 31 152 32 152 32 155 35 155"></polygon>
+            <polygon id="left-plus" stroke="#406D99" fill="#406D99" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="26 143.142857 22.1428571 143.142857 22.1428571 147 20.8571429 147 20.8571429 143.142857 17 143.142857 17 141.857143 20.8571429 141.857143 20.8571429 138 22.1428571 138 22.1428571 141.857143 26 141.857143"></polygon>
+            <polygon id="right-plus" stroke="#406D99" fill="#406D99" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="186 71.4285714 183.428571 71.4285714 183.428571 74 182.571429 74 182.571429 71.4285714 180 71.4285714 180 70.5714286 182.571429 70.5714286 182.571429 68 183.428571 68 183.428571 70.5714286 186 70.5714286"></polygon>
+            <circle id="right-cir" stroke="#406D99" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="173" cy="80" r="3"></circle>
+            <circle id="right-cir-sm" stroke="#406D99" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="182" cy="101" r="2"></circle>
+            <circle id="left-cir" stroke="#406D99" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="26" cy="126" r="2"></circle>
+            <path d="M71,138 L132,77" id="pointer" stroke="#406D99" stroke-width="3"></path>
+        </g>
+    </g>
+
+<style>
+    #pointer {
+        stroke-dasharray: 700;
+        stroke-dashoffset: 0;
+        -webkit-animation: dash 1500ms ease-in-out forwards;
+        -o-animation: dash 1500ms ease-in-out forwards;
+        -moz-animation: dash 1500ms ease-in-out forwards;
+        animation: dash 1500ms ease-in-out forwards;
+        animation-direction: alternate;
+    }
+      
+     @-webkit-keyframes dash {
+        from {
+          stroke-dashoffset: 700;
+        }
+        to {
+          stroke-dashoffset: 0;
+        }
+    }
+</style>
+
+</svg>
+
+
+
+
+
+
+
+
+
+

@@ -44,52 +44,111 @@ li a {
     padding: 16px;
     text-decoration: none;
     font-family: 'Nunito Sans', sans-serif;
-
 }
 
-.navbar #logo {
+h2 {
+  text-align: center;
+}
+
+.navbar #schoolLogo, .navbar #companyLogo {
     height: 60px; 
     width: auto;
     display: inline-block;
+    margin-left: 2%;
+}
+
+div #schoolLogo {
+    height: 140px;
+    width: auto;
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 10px 30px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    background-color: rgba(255, 255, 255, 0.81);
+}
+
+.addRemove {
+    z-index: 1005;
+    /* border: 1px solid blue; */
+    width: 50%;
+    margin: 0px auto;
+    box-shadow: 0px 0px 15px blue;
+    padding: 10px 0px;
 }
 
 .navborder {
-    border-bottom: 1px solid #e8e8e8;
+    /*border-bottom: 1px solid #e8e8e8;*/
+    /*box-shadow: 0px 1px 10px rgba(0,0,0,.2);*/
 }
 
 #links-landing {
-    text-align: center;
+  text-align: center;
+  position: relative;
+    top: 470px;
 }
 
 .navbar {
     height: 80px;
     justify-content: inherit;
+    position: sticky;
+    width: 100%;
+    /*background-color: white;*/
+    opacity: .9;
+    top: 0px;
+    z-index: 1001;
 }
 
 .navbar-brand {
     padding-left: 20px;
 }
 
-#teacherPicture {
+ul li #teacherPicture {
     height: 30px;
     width: auto;
     float: right;
     position: fixed;
     right: 2vw;
+    top: 23px;
     border-radius: 20px;
 }
 
 .navbarLinks {
     display: inline-flex;
     right: 6vw;
-    position: fixed;
+    position: absolute;
     font-family: 'Nunito Sans', sans-serif;
 
 }
 
 .headerLink {
-    padding: 0px 10px;
+    /*padding: 0px 10px;*/
     font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+}
+
+.headerLink:hover {
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    background-color: rgba(232, 232, 232, 0.28);
+    border-bottom: 0px;
+    text-decoration-line: none;
+}
+
+.dashboardLink {
+  color: white;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 100;
+}
+
+.dashboardLink:hover {
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 300;
+    background-color: rgba(128, 128, 128, 0.28);
+    border-bottom: 0px;
+    text-decoration-line: none;
 }
 
 .landingInstructions {
@@ -170,6 +229,7 @@ body {
   background: $red;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  /*overflow: hidden;*/
 }
 
 .buttons {
@@ -244,12 +304,12 @@ p {
 .btn {
   color: black;
   cursor: pointer;
-  display: block;
+  display: inline-block;
   font-size:16px;
   font-weight: 400;
   line-height: 45px;
   margin: 0 auto 2em;
-  max-width: 160px; 
+  /*max-width: 160px; */
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -308,9 +368,10 @@ p {
 
 .form-control:focus {
     color: #495057;
-    background-color: #f1f1f1;
+    background-color: white;
     border-color: #80bdff;
     outline: 0;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.3);
 }
 
 form {
@@ -318,7 +379,12 @@ form {
     /* margin-left: 25%; */
     /* margin-top: 30px; */
     margin: 30px auto;
-    min-width: 300px;}
+    min-width: 300px;
+}
+
+form .form-control {
+  width: 100%;
+}
 
 .login {
     color: black;
@@ -338,7 +404,121 @@ form {
 .loginIcons .schoolIcons {
   width: 100vw;
   height: auto;
+  overflow: hidden;
 }
+
+.dashboardImg {
+  background: url("images/chalkboard.jpg") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  
+}
+
+.loginSvg {
+  background: url("images/login.svg") center center no-repeat;
+  height: 220px;
+  opacity: .8;
+}
+
+.schoolName {
+  margin: 0px auto;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 900;
+}
+
+div .schoolName {
+    text-align: center;
+    display: block;
+    font-size: 80px;
+    margin: 0px auto;
+    color: white;
+    font-weight: 900;
+    position: relative;
+    top: 220px;
+}
+
+hr {
+  border-bottom: 1px solid gray;
+  margin: 0px 0px 10px 0px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  background: url("images/RiverRockBobcat.mp4") center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    top: 0px;
+    position: absolute;
+}
+
+.schoolProfile{  
+  background: url("images/RiverRockBobcat.mp4") center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.schoolYard {
+    background: url(images/schoolYard.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    bottom: -418px;
+    position: relative;
+    z-index: -1;
+
+}
+
+.form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+    padding: 20px;
+}
+
+a .formOptions:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.18);
+}
+
+button .btn-outline-dark:hover {
+  background-color: white;
+  color: black;
+}
+
+.form-row {
+    width: 45vw;
+    margin: 30px auto;
+    min-width: 300px;
+}
+
+video {
+    width: 100%;
+    object-fit: fill;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -3;
+    overflow: hidden;
+}
+
+.schoolSlogan {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    position: relative;
+    vertical-align: center;
+    top: 240px;
+}
+
 
 
 

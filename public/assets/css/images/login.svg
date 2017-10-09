@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="314px" height="114px" viewBox="0 0 314 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Login</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+             <linearGradient id="logo-gradient" x1="0%" y1="50%" x2="100%" y2="0%" > 
+            
+            <stop offset="0%" stop-color="#7A5FFF">
+                <animate attributeName="stop-color" values="#7A5FFF; #01FF89; #7A5FFF" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+
+            <stop offset="100%" stop-color="#01FF89">
+                <animate attributeName="stop-color" values="#01FF89; #7A5FFF; #01FF89" dur="4s" repeatCount="indefinite"></animate>
+            </stop>
+
+        </linearGradient> 
+    <g id="Page-1" stroke="none" stroke-width="1" fill="url(#logo-gradient)" fill-rule="evenodd" font-size="122" font-family="NunitoSans-Black, Nunito Sans" font-weight="700">
+        <g id="Artboard-Copy-5" transform="translate(-116.000000, -32.000000)" fill="url(#logo-gradient)">
+            <text id="Login">
+                <tspan x="109" y="123">Login</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

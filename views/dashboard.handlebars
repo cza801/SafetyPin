@@ -1,41 +1,53 @@
 <nav class="navbar bgMain navborder">
-	<img src="assets/css/images/logo_bobcat.jpg" id="logo">
-	<a class="navbar-brand headercolor" href="#">River Rock Elementary</a>
+	<img src="assets/css/images/logo_safetypin_white.svg" id="companyLogo">
+	
 	<div class="navbarLinks">
 		<ul>
 			<li>
-				<a href="" class="headerLink">Calendar</a>
+				<a href="" class="dashboardLink">Calendar</a>
 			</li>
 			<li>
-				<a href="" class="headerLink">Profile</a>
+				<a href="" class="dashboardLink">Profile</a>
 			</li>					
 			<li>
-				<a href="" class="headerLink">Settings</a>
+				<a href="" class="dashboardLink">Settings</a>
 			</li>					
 			<li>
-				<a href="" class="headerLink">Mr. Gardner</a>
+				<a href="/signIn" class="dashboardLink">Logout</a>
+			</li>
+			<li>
+				<img src="assets/css/images/mrGardner.jpg" id="teacherPicture">
 			</li>
 		</ul>
-
-		<img src="assets/css/images/mrGardner.jpg" id="teacherPicture">
 	</div>
 </nav>
-		
-<h1 class="landingInstructions">Click a link below to start...</h1>
 
-<div id="links-landing">
-	<a href="/create">
-		<img src="assets/css/images/createForm.svg" onmouseover="this.src='assets/css/images/createForm_hover.svg'" onmouseout="this.src='assets/css/images/createForm.svg'"/>
-	</a>
+<div class="jumbotron">
+	<h2 class="schoolName" href="#">River Rock Elementary</h2>
+	<h4 class="schoolSlogan" href="#">Home of the Bobcats</h4>
+	<video preload="auto" height="500px" src="assets/css/images/RiverRockBobcat.mp4" autoplay="" loop=""></video>
+</div>
 
-	<a href="/manage">
-		<img src="assets/css/images/manageForm.svg" onmouseover="this.src='assets/css/images/manageForm_hover.svg'" onmouseout="this.src='assets/css/images/manageForm.svg'"
-	    />
-	</a>
+<div>
+	<div class="col align-self-end" id="links-landing">
+		<a href="/create">
+			<img class="formOptions" src="assets/css/images/createForm.svg" onmouseover="this.src='assets/css/images/createForm_hover.svg'" onmouseout="this.src='assets/css/images/createForm.svg'"/>
+		</a>
 
-	<a href="/send">
-		<img src="assets/css/images/sendForm.svg" onmouseover="this.src='assets/css/images/sendForm_hover.svg'" onmouseout="this.src='assets/css/images/sendForm.svg'"
-	    />
-	</a>
+		<a href="/manageForm">
+			<img class="formOptions" src="assets/css/images/manageForm.svg" onmouseover="this.src='assets/css/images/manageForm_hover.svg'" onmouseout="this.src='assets/css/images/manageForm.svg'"/>
+		</a>
+
+		<a href="/send">
+			<img class="formOptions" src="assets/css/images/sendForm.svg" onmouseover="this.src='assets/css/images/sendForm_hover.svg'" onmouseout="this.src='assets/css/images/sendForm.svg'"/>
+		</a>
+		<a href="/manageRecipientList">
+			<img class="formOptions" src="assets/css/images/recipientList.svg" onmouseover="this.src='assets/css/images/recipientList_hover.svg'" onmouseout="this.src='assets/css/images/recipientList.svg'"/>
+		</a>
+	</div>
+</div>
+
+<div class="schoolYard">
+	
 </div>
 

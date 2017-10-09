@@ -11,18 +11,18 @@
         <g id="Artboard-Copy">
             <g id="pointer2">
                 <use fill="#F9F9F9" fill-rule="evenodd" xlink:href="#path-1"></use>
-                <rect stroke="#636363" stroke-width="3" x="46.5" y="40.5" width="112" height="137" rx="5"></rect>
+                <rect stroke="#406D99" stroke-width="3" x="46.5" y="40.5" width="112" height="137" rx="5"></rect>
             </g>
-            <text id="Create-Form" font-family="NunitoSans-ExtraLight, Nunito Sans" font-size="22" font-weight="300" fill="#000000">
+            <text id="Create-Form" font-family="NunitoSans-ExtraLight, Nunito Sans" font-size="22" font-weight="300" fill="#406D99">
                 <tspan x="41" y="220">Create Form</tspan>
             </text>
-            <path d="M58,160.5 L110.5,160.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M58,143.5 L148,143.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M58,126.5 L148,126.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M58,109.5 L148,109.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M58,92.5 L148,92.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M58,75.5 L148,75.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
-            <path d="M58,58.5 L83.5196003,58.5" id="pointer" stroke="#636363" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,160.5 L110.5,160.5" id="pointer" stroke="#406D99" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,143.5 L148,143.5" id="pointer" stroke="#406D99" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,126.5 L148,126.5" id="pointer" stroke="#406D99" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,109.5 L148,109.5" id="pointer" stroke="#406D99" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,92.5 L148,92.5" id="pointer" stroke="#406D99" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,75.5 L148,75.5" id="pointer" stroke="#406D99" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M58,58.5 L83.5196003,58.5" id="pointer" stroke="#406D99" stroke-width="3" fill="#F5F5F5" stroke-linecap="round" stroke-linejoin="round"></path>
             <g id="Add" stroke-linecap="round" stroke-linejoin="round" fill-rule="nonzero">
                 <animateTransform attributeName="transform"
                     type="scale"
@@ -33,15 +33,15 @@
                     dur="500ms"
                     repeatCount=""
                 />                
-                <use fill="#636363" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <use fill="#406D99" fill-rule="evenodd" xlink:href="#path-2"></use>
                 <path stroke="#FFFFFF" stroke-width="5" d="M163.757143,48.7571429 L163.757143,63.5 L148.242857,63.5 L148.242857,48.7571429 L133.5,48.7571429 L133.5,33.2428571 L148.242857,33.2428571 L148.242857,18.5 L163.757143,18.5 L163.757143,33.2428571 L178.5,33.2428571 L178.5,48.7571429 L163.757143,48.7571429 Z"></path>
             </g>
-            <polygon id="plus" stroke="#636363" fill="#636363" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="35 72 32 72 32 75 31 75 31 72 28 72 28 71 31 71 31 68 32 68 32 71 35 71"></polygon>
-            <polygon id="plus" stroke="#636363" fill="#636363" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="26 83.1428571 22.1428571 83.1428571 22.1428571 87 20.8571429 87 20.8571429 83.1428571 17 83.1428571 17 81.8571429 20.8571429 81.8571429 20.8571429 78 22.1428571 78 22.1428571 81.8571429 26 81.8571429"></polygon>
-            <polygon id="plus" stroke="#636363" fill="#636363" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="182 118.428571 179.428571 118.428571 179.428571 121 178.571429 121 178.571429 118.428571 176 118.428571 176 117.571429 178.571429 117.571429 178.571429 115 179.428571 115 179.428571 117.571429 182 117.571429"></polygon>
-            <circle id="plus" stroke="#636363" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="173" cy="80" r="3"></circle>
-            <circle id="right-cir-sm" stroke="#636363" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="182" cy="71" r="2"></circle>
-            <circle id="left-cir" stroke="#636363" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="28" cy="96" r="2"></circle>
+            <polygon id="plus" stroke="#406D99" fill="#406D99" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="35 72 32 72 32 75 31 75 31 72 28 72 28 71 31 71 31 68 32 68 32 71 35 71"></polygon>
+            <polygon id="plus" stroke="#406D99" fill="#406D99" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="26 83.1428571 22.1428571 83.1428571 22.1428571 87 20.8571429 87 20.8571429 83.1428571 17 83.1428571 17 81.8571429 20.8571429 81.8571429 20.8571429 78 22.1428571 78 22.1428571 81.8571429 26 81.8571429"></polygon>
+            <polygon id="plus" stroke="#406D99" fill="#406D99" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="182 118.428571 179.428571 118.428571 179.428571 121 178.571429 121 178.571429 118.428571 176 118.428571 176 117.571429 178.571429 117.571429 178.571429 115 179.428571 115 179.428571 117.571429 182 117.571429"></polygon>
+            <circle id="plus" stroke="#406D99" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="173" cy="80" r="3"></circle>
+            <circle id="right-cir-sm" stroke="#406D99" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="182" cy="71" r="2"></circle>
+            <circle id="left-cir" stroke="#406D99" stroke-width="2" fill-opacity="0" fill="#D8D8D8" cx="28" cy="96" r="2"></circle>
         </g>
     </g>
 
