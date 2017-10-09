@@ -1,31 +1,38 @@
-<nav class="navbar bgMain navborder">
+<nav class="navbar navbar-expand-lg navbar-light">
 	<img src="assets/css/images/logo_safetypin_white.svg" id="companyLogo">
-	
-	<div class="navbarLinks">
-		<ul>
-			<li>
-				<a href="" class="dashboardLink">Calendar</a>
-			</li>
-			<li>
-				<a href="" class="dashboardLink">Profile</a>
-			</li>					
-			<li>
-				<a href="" class="dashboardLink">Settings</a>
-			</li>					
-			<li>
-				<a href="/signIn" class="dashboardLink">Logout</a>
-			</li>
-			<li>
-				<img src="assets/css/images/mrGardner.jpg" id="teacherPicture">
-			</li>
-		</ul>
-	</div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbarLinks">
+      <li class="nav-item">
+		<a href="" class="dashboardLink">Calendar</a>
+      </li>
+      <li class="nav-item">
+		<a href="" class="dashboardLink">Profile</a>
+      </li>
+      <li class="nav-item">
+		<a href="" class="dashboardLink">Settings</a>
+      </li>
+      <li class="nav-item">
+		<a href="/signIn" class="dashboardLink">Logout</a>
+      </li>
+		<li>
+			<img src="assets/css/images/mrGardner.jpg" id="teacherPicture">
+		</li>
+    </ul>
+    
+  </div>
+</nav>
+
 </nav>
 
 <div class="jumbotron">
 	<h2 class="schoolName" href="#">River Rock Elementary</h2>
 	<h4 class="schoolSlogan" href="#">Home of the Bobcats</h4>
-	<video preload="auto" height="500px" src="assets/css/images/RiverRockBobcat.mp4" autoplay="" loop=""></video>
+	<video preload="auto" src="assets/css/images/RiverRockBobcat.mp4" autoplay="" loop=""></video>
 </div>
 
 <div>
@@ -41,13 +48,119 @@
 		<a href="/send">
 			<img class="formOptions" src="assets/css/images/sendForm.svg" onmouseover="this.src='assets/css/images/sendForm_hover.svg'" onmouseout="this.src='assets/css/images/sendForm.svg'"/>
 		</a>
-		<a href="/manageRecipientList">
+		<a href="" data-toggle="modal" data-target="#exampleModal">
 			<img class="formOptions" src="assets/css/images/recipientList.svg" onmouseover="this.src='assets/css/images/recipientList_hover.svg'" onmouseout="this.src='assets/css/images/recipientList.svg'"/>
 		</a>
 	</div>
 </div>
 
-<div class="schoolYard">
-	
+<div class="schoolYard"></div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Manage Parent Recipient List</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+		<form>
+		  <div class="form-group">
+		  	<label for="exampleInputEmail1">Parent's Name</label>
+		    <input type="text" class="form-control" id="parentName" aria-describedby="emailHelp" placeholder="First and Last name">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Parents Email</label>
+		    <input type="email" class="form-control" id="parentEmail" aria-describedby="emailHelp" placeholder="Email Address">
+		  </div>	
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="addParent">ADD</button>
+        <button type="button" class="removeParent">REMOVE</button>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+<footer class="footer-distributed" style="bottom: -418px;
+    position: relative; padding:25px 50px; text-align: center;">
+
+	<div class="footer-center" style="width:50%;">
+
+<!-- 		<img src="assets/css/images/logo_safetypin_white.svg" alt="" style="height: 60px;"> -->
+
+		<p class="footer-links">
+			
+			<a style="color: #c7c7c7;" href="" class="footer-company-name">Safetypin &copy; 2017</a>
+			·
+			<a style="color: #c7c7c7;" href="#">Home</a>
+			·
+			<a style="color: #c7c7c7;" href="#">Blog</a>
+			·
+			<a style="color: #c7c7c7;" href="#">Pricing</a>
+			·
+			<a style="color: #c7c7c7;" href="#">About</a>
+			·
+			<a style="color: #c7c7c7;" href="#">Faq</a>
+			·
+			<a style="color: #c7c7c7;" href="#">Contact</a>
+			
+			
+
+		</p>
+
+	
+	</div>
+
+<!-- 	<div class="footer-center">
+
+		<div>
+			<i class="fa fa-map-marker"></i>
+			<p><span>111 Main street</span> Salt Lake City, Utah</p>
+		</div>
+
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>801.123.4567</p>
+		</div>
+
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p><a href="mailto:support@company.com">support@safetypin.xyz</a></p>
+		</div>
+
+	</div>
+
+	<div class="footer-right">
+
+		<p class="footer-company-about">
+			<span>Connect with us on:</span>
+			
+		</p>
+
+		<div class="footer-icons">
+			
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-linkedin"></i></a>
+			<a href="#"><i class="fa fa-github"></i></a>
+
+		</div>
+
+	</div> -->
+
+</footer>
+
+
+
+
+
+
 
