@@ -1,9 +1,8 @@
-var header = $(".navbar");
-$(window).scroll(function() {
-var scroll = window.scrollTop();
-if (scroll = 100vh) {
-    header.addClass("backbround-color: rgba(0,0,0,.6)");
-} else {
-    header.removeClass("backbround-color: rgba(0,0,0,.6)");
-}
+$(window).on("scroll", function() {
+    if($(window).scrollTop() < 457) {
+        $("#navDash").css("background-color", "rgba(36, 38, 45, 0)");
+    } else if ($(window).scrollTop() > 457){
+       $("#navDash").css("background-color", "rgba(36, 38, 45, 0.8)");
+
+    }
 });
