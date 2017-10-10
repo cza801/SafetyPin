@@ -77,6 +77,18 @@ div #schoolLogo {
   border: 0px;
 }
 
+.modal-header {
+  background-color: #f7f7f7;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: white;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0px 0px 15px #3889a5;
+}
+
 .navborder {
     /*border-bottom: 1px solid #e8e8e8;*/
     /*box-shadow: 0px 1px 10px rgba(0,0,0,.2);*/
@@ -402,13 +414,7 @@ p {
     /* transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; */
 }
 
-.form-control:focus {
-    color: #495057;
-    background-color: white;
-    border-color: #80bdff;
-    outline: 0;
-    box-shadow: 0px 0px 15px rgba(0,0,0,.3);
-}
+
 
 form {
     width: 30vw;
