@@ -1,7 +1,10 @@
+
 a img {
-    /*border: 1px solid red;*/
+    /* border: 1px solid red; */
     padding: 30px;
     margin: 20px;
+    background-color: rgba(255, 255, 255, 0.57);
+
 }
 
 a img:hover {
@@ -64,6 +67,7 @@ h2 {
     display: inline-block;
     margin-left: 9%;
     padding: 0px;
+    background-color: transparent;
 }
 
 div #schoolLogo {
@@ -131,8 +135,13 @@ div #schoolLogo {
 }
 
 #navSend {
-  background-color: rgba(255,255,255,.9);
-      margin-bottom: 60px;
+    background-color: rgb(117, 203, 224);
+    margin-bottom: 90px;
+}
+
+#sendInst {
+  font-weight: 700;
+    color: white;
 }
 
 .active {
@@ -166,7 +175,7 @@ ul li #teacherPicture {
 }
 
 .dashboardLinkSend {
-  color: black;
+  color: white;
 }
 
 .show .navbarLinks {
@@ -543,6 +552,7 @@ hr {
     height: 400px;
     top: 0px;
     position: absolute;
+    z-index: 10;
 }
 
 .schoolProfile{  
@@ -564,15 +574,27 @@ hr {
 }
 
 .classroomGIF {
-      background: url(images/classroom2.gif) center center no-repeat;
+    background: url(images/learn.png) center center no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 710px;
+    margin: 0px auto;
     height: 500px;
-    bottom: px;
+    bottom: -75px;
     position: relative;
-    z-index: -1;
-
+    /*z-index: -1;*/
 }
+
+#bgGrad {
+    background-image: linear-gradient(-180deg, rgba(0, 188, 212, 0.72) 0%, rgba(156, 39, 176, 0.47) 100%);
+    /*opacity: 1.6;*/
+  }
+
+#bgDash {
+background-image: linear-gradient(-180deg, #3f65b5 0%, rgba(209, 229, 255, 0.17) 100%);
+    z-index: -10;
+}
+
+/* Rectangle 3: */
 
 .form-inline {
     display: -ms-flexbox;
@@ -586,7 +608,9 @@ hr {
 }
 
 a .formOptions:hover {
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.58);
+    background-color: white;
+    transform: scale3d(1.01, 1.01, 1.01);
 }
 
 button .btn-outline-dark:hover {
@@ -1075,11 +1099,17 @@ _grid.scss:42
   margin: 10px auto;
   padding: 6px;
   border-radius: 0px;
+  background-color: white;
 }
 
 #formList:hover {
     border: 1px solid #dcdcdc;
-  box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+    box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+    transform: scale3d(1.01, 1.01, 1.01);
+}
+
+#formTitle {
+  font-weight: 100;
 }
 
 

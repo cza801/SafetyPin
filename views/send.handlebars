@@ -1,9 +1,13 @@
+<div id="bgGrad">
+
 <nav id="navSend" class="navbar navbar-expand-lg navbar-light">
-  <a href="/dashboard"> <img src="assets/css/images/logo_safetypin.svg" id="companyLogo"></a>
+  <a href="/dashboard"> <img src="assets/css/images/logo_safetypin_white.svg" id="companyLogo"></a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
+
+
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbarLinks">
@@ -28,7 +32,7 @@
   </div>
 </nav>
 
-<h2>Select form below to send to parents:</h2>
+<h2 id="sendInst">Select form below to send to parents:</h2>
 <hr style="margin: 20px 40px;">
 
 <div class="row">
@@ -37,7 +41,7 @@
       <img class="imgsend" src="assets/css/images/lagoon.jpg" alt="...">
       <div class="caption">
         <div class="title">
-            <h3>Lagoon Day</h3>
+            <h3 id="formTitle">Lagoon Day</h3>
         </div>
         <p class="sendP"><a href="#" class="btn btn-2" role="button">Send</a></p>
       </div>
@@ -48,7 +52,7 @@
       <img class="imgsend" src="assets/css/images/reading.jpg" alt="...">
       <div class="caption">
         <div class="title">
-            <h3>Reading Chart</h3>
+            <h3 id="formTitle">Reading Chart</h3>
         </div>
         <p class="sendP"><a href="#" class="btn btn-2" role="button">Send</a></p>
       </div>
@@ -59,7 +63,7 @@
       <img class="imgsend" src="assets/css/images/reading.jpg" alt="...">
       <div class="caption">
           <div class="title">
-            <h3>Report Card</h3>
+            <h3 id="formTitle">Report Card</h3>
         </div>
         <p class="sendP"><a href="#" class="btn btn-2" role="button">Send</a></p>
       </div>
@@ -70,8 +74,49 @@
 
 <div class="classroomGIF"></div>
 
-<footer class="footer-distributed" style="bottom: -4px;
-    position: relative; padding:25px 50px; text-align: center;">
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Support Guru</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    <form>
+      <div>
+        <img src="assets/css/images/JSONross.jpg" id="supportImg" alt="">
+        <img src="assets/css/images/polly.gif" id="polly" alt="">
+      </div>
+      <hr>
+      <div class="form-group">
+        <!-- <label for="exampleInputEmail1">From:</label> -->
+        <input type="email" class="form-control" id="parentName" aria-describedby="emailHelp" placeholder="Email Address">
+      </div>
+      <div class="form-group">
+        <!-- <label for="exampleInputEmail1">Subject:</label> -->
+        <input type="text" class="form-control" id="parentEmail" aria-describedby="emailHelp" placeholder="Subject">
+      </div>
+      <div class="form-group">
+        <!-- <label for="comment">Comment:</label> -->
+        <textarea class="form-control" rows="5" id="comment" placeholder="Type message here..."></textarea>
+      </div>  
+    </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="addParent">Send</button>
+        <!-- <button type="button" class="removeParent">REMOVE</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer-distributed" style="bottom: 2px;
+    position: relative;
+    padding: 25px 50px;
+    text-align: center;">
 
   <div class="footer-center" style="width:50%;">
 
@@ -90,9 +135,10 @@
       ·
       <a style="color: #c7c7c7;" href="">Faq</a>
       ·
-      <a style="color: #c7c7c7;" href="">Contact</a>
+      <a style="color: #c7c7c7;" href="" data-toggle="modal" data-target=".bd-example-modal-lg">Support</a>
     </p>
   </div>
 </footer>
 
 
+</div>
