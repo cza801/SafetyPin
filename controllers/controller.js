@@ -14,8 +14,8 @@ router.get("/dashboard", function(req, res) {
 	res.render("dashboard")
 });
 
-router.get("/index", function(req, res) {
-	res.render("index")
+router.get("/send.handlebars", function(req, res) {
+    res.render("send.handlebars")
 });
 
 module.exports = router;

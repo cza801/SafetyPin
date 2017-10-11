@@ -15,7 +15,6 @@ a {
     text-align: center;
     color: black;
     font-family: 'Nunito Sans', sans-serif;
-
 }
 
 
@@ -56,6 +55,15 @@ h2 {
     width: auto;
     display: inline-block;
     margin-left: 2%;
+    /*padding:0px;*/
+}
+
+.navbar a #companyLogo {
+    height: 60px; 
+    width: auto;
+    display: inline-block;
+    margin-left: 9%;
+    padding: 0px;
 }
 
 div #schoolLogo {
@@ -122,7 +130,9 @@ div #schoolLogo {
   background-color: rgba(255, 255, 255, .9);
 }
 
-#navDash {
+#navSend {
+  background-color: rgba(255,255,255,.9);
+      margin-bottom: 60px;
 }
 
 .active {
@@ -155,6 +165,23 @@ ul li #teacherPicture {
 
 }
 
+.dashboardLinkSend {
+  color: black;
+}
+
+.show .navbarLinks {
+display: inline-grid;
+    right: 6vw;
+    position: absolute;
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgba(0, 0, 0, 0.77);
+    padding: 40px;
+    text-align: center;
+    top: 73%;
+    /* float: right; */
+    right: 2%;
+}
+
 .headerLink {
     /*padding: 0px 10px;*/
     font-family: 'Nunito Sans', sans-serif;
@@ -173,7 +200,14 @@ ul li #teacherPicture {
 .dashboardLink {
   color: white;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 100;
+  font-weight: 100
+
+}
+
+.dashboardLinkImg {
+    height: 60px;
+    width: auto;
+    border-radius: 100px;
 }
 
 .dashboardLink:hover {
@@ -496,8 +530,8 @@ div .schoolName {
 }
 
 hr {
-  border-bottom: 1px solid gray;
-  margin: 0px 0px 10px 0px;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+  margin: 20px 0px;
 }
 
 .jumbotron {
@@ -524,6 +558,17 @@ hr {
     width: 100%;
     height: 500px;
     bottom: -418px;
+    position: relative;
+    z-index: -1;
+
+}
+
+.classroomGIF {
+      background: url(images/classroom2.gif) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    bottom: px;
     position: relative;
     z-index: -1;
 
@@ -586,6 +631,10 @@ video {
   margin-bottom: 10px;
 }
 
+.modal-body {
+  padding: 0px;
+}
+
 .modal-footer {
   padding: 0px;
   margin: 0px;
@@ -609,7 +658,7 @@ video {
   padding: 20px;
   width: 100%;
   font-family: 'Nunito Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: black;
   cursor: pointer;
 }
@@ -640,6 +689,12 @@ video {
 input, label, .form-group, .modal-title {
   font-family: 'Nunito Sans', sans-serif;
 
+}
+
+.modal-title {
+    margin: 0px auto;
+    font-weight: 600;
+    font-size: 26px;
 }
 
 .checkbox label {
@@ -896,12 +951,141 @@ input, label, .form-group, .modal-title {
 }
 
 
+
+
 :focus {
     outline: none;
     outline-color: transparent;
     outline-style: auto;
     outline-width: 0px;
+}
 
+.navbar-toggler {
+      background-color: rgba(255, 255, 255, 0.43);
+    border-radius: 0px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.navbar-toggler:hover {
+  background-color: white;
+}
+
+#supportImg {
+  width: 100%;
+  /*position: absolute;*/
+  height: auto;
+}
+
+#polly {
+  height: 180px;
+    position: absolute;
+    top: 2%;
+    left: 18%;
+}
+
+#comment {
+  height: 75px;
+}
+
+
+
+/*----------------Send Page CSS ----------------------------*/
+.lagoon {
+  border-radius: 15%;
+  border-color: gray;
+  border: solid 1px;
+  width: auto;
+  height: 200px;
+}
+.reading {
+  border-radius: 15%;
+  border-color: gray;
+  border: solid 1px;
+  width: auto;
+  height: 200px;
+}
+.img-responsive {
+  margin:0 auto;
+}
+.imgsend {
+    width: 80%;
+    height: auto;
+    margin: 0px 10%;
+}
+.sendP{
+    width: 50%;
+    height: 65px;
+    /* display: inline-block; */
+    margin: 0px 25%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.row .thumbnail .btn {
+  color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px; 
+    margin: 0 auto 2em;
+    /* max-width: 160px; */
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.schoolYardSend {
+    background: url(images/schoolYard.png) center center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    bottom: -150px;
+    position: relative;
+    z-index: -1;
+  }
+.title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    /* display: inline-block; */
+    text-align: center;
+        font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.caption {
+
+}
+
+@media (min-width: 768px)
+_grid.scss:42
+.col-md-3 {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+    border: 1px solid gray;
+    margin: 20px auto;
+    background: rgb(255, 255, 255);
+}
+
+#formList {
+  border: 1px solid #dcdcdc;
+  margin: 10px auto;
+  padding: 6px;
+  border-radius: 0px;
+}
+
+#formList:hover {
+    border: 1px solid #dcdcdc;
+  box-shadow: 0px 0px 15px rgba(0,0,0,.3);
+}
+
+
+}
+
+/*------------------end of Sendpage CSS-------------*/
 
 
 
