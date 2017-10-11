@@ -6,3 +6,9 @@ $(window).on("scroll", function() {
 
     }
 });
+
+
+$('#linksLanding #sendForm').on("click", function() {
+	$(body).css("background-image", "linear-gradient(-180deg, #B4EC51 0%, #429321 100%);");
+	$(body).css("height", "");
+});
